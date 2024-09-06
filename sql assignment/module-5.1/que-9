@@ -1,0 +1,15 @@
+9. What is Savepoint? How to Create a Savepoint? Write a Query:
+   - A savepoint is a marker within a transaction that allows you to roll back to that point without affecting the entire transaction. It is
+    useful for managing complex transactions where you might want to undo part of the work if an error occurs.
+
+   *Example Query:*
+   sql
+   BEGIN TRANSACTION;
+
+   SAVEPOINT savepoint1;
+
+   -- Some SQL operations
+
+   ROLLBACK TO SAVEPOINT savepoint1; -- Rollback to the savepoint
+
+   COMMIT;

@@ -1,0 +1,4 @@
+2. What is Normalization?
+   - Normalization is a process in database design used to reduce data redundancy and improve data integrity. It involves organizing a database 
+   into tables and defining relationships between them in such a way that each piece of data is stored only once. The process is done through a
+    series of steps known as normal forms (1NF, 2NF, 3NF, etc.), each addressing different types of redundancy and dependencies
